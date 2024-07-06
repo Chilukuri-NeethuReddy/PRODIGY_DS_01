@@ -36,6 +36,7 @@ data = pd.read_csv('Literacy_rates.csv')
 # Display the first few rows of the dataset
 
 print(data.head())
+
 ![Screenshot 2024-07-06 220725](https://github.com/Chilukuri-NeethuReddy/PRODIGY_DS_01/assets/174725064/2b464ee7-ce20-4a05-98f7-a4321ac689b3)
 
 
