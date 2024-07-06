@@ -1,4 +1,5 @@
 ProdigyInfoTech_TASK1
+
 Task 1: Data Visualization - Literacy Rates by Gender and Distribution
 This project demonstrates how to visualize the distribution of a categorical variable (gender) and a continuous variable (literacy rate) using a literacy rates dataset. The visualizations are created using pandas, matplotlib, and seaborn.
 
