@@ -15,49 +15,71 @@ Literacy Rate Distribution: A histogram that shows the distribution of literacy 
 How to Run:
 
 Clone the repository.
+
 Ensure you have the necessary libraries installed (pandas, matplotlib, seaborn).
+
 Place the dataset (Literacy_rates.csv) in the same directory as the script.
+
 Run the script to generate the visualizations.
 
 Code:
 
 import pandas as pd
+
 import matplotlib.pyplot as plt
+
 import seaborn as sns
 
 # Load the dataset
 data = pd.read_csv('Literacy_rates.csv')
 
 # Display the first few rows of the dataset
+
 print(data.head())
 ![Screenshot 2024-07-06 220725](https://github.com/Chilukuri-NeethuReddy/PRODIGY_DS_01/assets/174725064/2b464ee7-ce20-4a05-98f7-a4321ac689b3)
 
 
 
 # Set the style of the visualization
+
 sns.set(style="whitegrid")
 
 # Define the color palette
+
 palette_colors = ['orange', 'blue', 'lightgreen']
 
 # Create the bar plot for average literacy rate by gender
+
 plt.figure(figsize=(12, 6))
+
 sns.barplot(x='Gender', y='Literacy rate', data=data, palette=palette_colors)
+
 plt.title('Average Literacy Rate by Gender in Literacy Rates Dataset')
+
 plt.xlabel('Gender')
+
 plt.ylabel('Average Literacy Rate')
+
 plt.show()
+
 Bar Chart for Average Literacy Rate by Gender
 ![Screenshot 2024-07-06 215923](https://github.com/Chilukuri-NeethuReddy/PRODIGY_DS_01/assets/174725064/a2ff570f-3143-49ea-8e68-94628e81fab6)
 
 
 # Create the histogram for literacy rate distribution
+
 plt.figure(figsize=(12, 6))
+
 sns.histplot(data['Literacy rate'], bins=30, kde=True)
+
 plt.title('Literacy Rate Distribution in Literacy Rates Dataset')
+
 plt.xlabel('Literacy Rate')
+
 plt.ylabel('Frequency')
+
 plt.show()
+
 Histogram for Literacy Rate Distribution
 ![Screenshot 2024-07-06 220244](https://github.com/Chilukuri-NeethuReddy/PRODIGY_DS_01/assets/174725064/47d5585a-056b-4a50-a500-23fc16e2b974)
 
