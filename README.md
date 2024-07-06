@@ -4,12 +4,12 @@ Task 1: Data Visualization - Literacy Rates by Gender and Distribution
 This project demonstrates how to visualize the distribution of a categorical variable (gender) and a continuous variable (literacy rate) using a literacy rates dataset. The visualizations are created using pandas, matplotlib, and seaborn.
 
 Dataset:
-
 The dataset used in this project is the Literacy Rates dataset ,which can be found on Kaggle.
 
 Visualizations:
 
 Average Literacy Rate by Gender: A bar chart that shows the average literacy rate for each gender in the dataset.
+
 Literacy Rate Distribution: A histogram that shows the distribution of literacy rates in the dataset.
 
 How to Run:
