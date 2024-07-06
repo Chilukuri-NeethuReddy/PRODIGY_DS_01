@@ -3,20 +3,24 @@ ProdigyInfoTech_TASK1
 Task 1: Data Visualization - Literacy Rates by Gender and Distribution
 This project demonstrates how to visualize the distribution of a categorical variable (gender) and a continuous variable (literacy rate) using a literacy rates dataset. The visualizations are created using pandas, matplotlib, and seaborn.
 
-Dataset
+Dataset:
+
 The dataset used in this project is the Literacy Rates dataset ,which can be found on Kaggle.
 
-Visualizations
+Visualizations:
+
 Average Literacy Rate by Gender: A bar chart that shows the average literacy rate for each gender in the dataset.
 Literacy Rate Distribution: A histogram that shows the distribution of literacy rates in the dataset.
 
-How to Run
+How to Run:
+
 Clone the repository.
 Ensure you have the necessary libraries installed (pandas, matplotlib, seaborn).
 Place the dataset (Literacy_rates.csv) in the same directory as the script.
 Run the script to generate the visualizations.
 
-Code
+Code:
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
